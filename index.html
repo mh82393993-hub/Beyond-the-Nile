@@ -1,263 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AEGYPTA</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Cairo&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beyond the Nile | Landmarks of Egypt</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-  <!-- Navbar -->
-  <nav class="nav">
-    <b>AEGYPTA</b>
-    <div>
-      <a href="#">HOME</a>
-      <span>|</span>
-      <a href="#giza">GIZA</a>
-      <span>|</span>
-      <a href="#luxor">LUXOR</a>
-      <span>|</span>
-      <a href="#cairo">MUSEUMS</a>
-      <span>|</span>
-      <a href="#more">ARTIFACTS</a>
-    </div>
-    <input placeholder="Search...">
+  <nav>
+    <a class="logo" href="#top">Beyond the Nile</a>
+    <ul>
+      <li><a href="#temples">Ancient</a></li>
+      <li><a href="#heritage">Heritage</a></li>
+      <li><a href="#nature">South &amp; West</a></li>
+    </ul>
   </nav>
-
-  <!-- Hero -->
-  <header class="hero">
+  <header class="intro" id="top">
     <div>
-      <h1>AEGYPTA:</h1>
-      <h2>Explore Ancient Wonders</h2>
-      <a href="#giza">Learn More</a>
+      <h1>Egypt, beyond the postcards.</h1>
+      <p>Nine places, three stories each: from a step pyramid to a desert of white stone.</p>
+      <a class="cta" href="#temples">Begin exploring</a>
     </div>
+    <div class="arch"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Al-Deir_Al-Bahari_Temple_73.jpg?width=1200" alt="Temple of       Hatshepsut"></div>
   </header>
-
-  <!-- Each card: 3 images + title; the description appears on hover -->
-  <section class="sec" id="giza">
-    <h2>Giza</h2>
-    <div class="g">
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://imgs.search.brave.com/BbIPTQL8EovpPJLMtmACtWpZqmiqFTPLeitvdyv9I1Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8yZ2J6/enhwN21rcnFwZ3B6/LnB1YmxpYy5ibG9i/LnZlcmNlbC1zdG9y/YWdlLmNvbS9naXph/LXB5cmFtaWRzL2Fl/cmlhbF92aWV3XzAw/LndlYnA" alt="The Pyramids of Giza and the Sphinx">
-          <img loading="lazy" src="https://imgs.search.brave.com/ihPqJNK7PL1m2PftUqYs3lQm8gibvK7OQYr7ogTpjNA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8yZ2J6/enhwN21rcnFwZ3B6/LnB1YmxpYy5ibG9i/LnZlcmNlbC1zdG9y/YWdlLmNvbS9naXph/LXB5cmFtaWRzL3Jv/YWRfMDEud2VicA" alt="The Pyramids of Giza and the Sphinx">
-          <img loading="lazy" src="https://imgs.search.brave.com/fuC1i8RqNEuvvOgetGytSFzr1P_xhyCrZ9-n2IhFEPI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8yZ2J6/enhwN21rcnFwZ3B6/LnB1YmxpYy5ibG9i/LnZlcmNlbC1zdG9y/YWdlLmNvbS9naXph/LXB5cmFtaWRzL3Jv/YWRfMDAud2VicA" alt="The Pyramids of Giza and the Sphinx">
-        </div>
-        <h3 class="t">The Pyramids of Giza and the Sphinx</h3>
-        <div class="d">
-          <h3>The Pyramids of Giza and the Sphinx</h3>
-          <p>Egypt's and the world's greatest archaeological landmarks; they include the pyramids of Khufu, Khafre and Menkaure, built as royal tombs in the Old Kingdom and guarded by the famous Sphinx.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
-        </div>
-      </article>
-
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://q-xx.bstatic.com/xdata/images/xphoto/max1200/130060198.jpg?k=13272766be70ec59fa198a8954e85976f217987c5dd6b7ce05e4cb288d2e21ae&o=" alt="Saqqara and Dahshur">
-          <img loading="lazy" src="https://i0.wp.com/landioustravel.com/wp-content/uploads/2020/11/bent_pyramid_of_snefru-e1618580850856.jpg?fit=1200%2C675&ssl=1" alt="Saqqara and Dahshur">
-          <img loading="lazy" src="https://vcdn.visit.guide/RAC.php?src=18467328921635765942.jpg&w=830&h=550" alt="Saqqara and Dahshur">
-        </div>
-        <h3 class="t">Saqqara and Dahshur</h3>
-        <div class="d">
-          <h3>Saqqara and Dahshur</h3>
-          <p>The cradle of pyramid architecture in ancient Egypt; Saqqara holds Djoser's Step Pyramid, the oldest stone building in history, while Dahshur is famous for the Bent Pyramid and the Red Pyramid of King Sneferu.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
+  <main>
+    <section class="chapter" id="temples">
+      <header class="chapter-head">
+        <h2>Ancient Wonders</h2>
+        <p>Stone that has outlived empires</p>
+      </header>
+      <article class="spot">
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Saqqara,_Pyramid_of_Djoser,_Ancient_Egypt.jpg?width=1200" alt="Pyramid         of Djoser" loading="lazy"></figure>
+        <div class="spot-text">
+          <span class="num">01</span>
+          <h3>Pyramid of Djoser</h3>
+          <p class="place">Saqqara, Giza</p>
+          <ol>
+            <li>Built about 4,650 years ago for King Djoser of the Third Dynasty.</li>
+            <li>The architect Imhotep is credited with its           design.</li>
+            <li>Its six stacked steps rise to around 60 meters.</li>
+          </ol>
         </div>
       </article>
-
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFJ_xXg5AYeOGvB-yQA8FzeI6WBekfDCoq4-zcUfETA&s=10" alt="The Grand Egyptian Museum">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0l25zOrAvMHCPExK2UAK1_jUvb_cSxXc9PAgycnraPw&s=10" alt="The Grand Egyptian Museum">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT892sqhBhOhHtkmnR8JifwcwbqSDrcjtUI3O4LbsU3BQ&s=10" alt="The Grand Egyptian Museum">
-        </div>
-        <h3 class="t">The Grand Egyptian Museum</h3>
-        <div class="d">
-          <h3>The Grand Egyptian Museum</h3>
-          <p>The world's largest archaeological museum dedicated to a single civilization; located next to the Giza pyramids, it houses over 100,000 artifacts, most notably the complete Tutankhamun collection and the statue of Ramesses II.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
-        </div>
-      </article>
-    </div>
-  </section>
-
-
-  <section class="sec" id="luxor">
-    <h2>Luxor</h2>
-    <div class="g">
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP2xqMR1PdJ1FRC4g8rUNgSxQeE91E19So6fTwecRjKA&s=10" alt="Karnak Temple">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3cib7ONFtpc1jIhUO_rWWnBWuJZLSYrjfm1y2OAOFSw&s=10" alt="Karnak Temple">
-          <img loading="lazy" src="https://explore.rehlat.ae/static/media/searchdestination/thingstodo/images/luxor/temple_of_karnak/large_Templo_de_Karnak,_Luxor,_Egipto,.webp" alt="Karnak Temple">
-        </div>
-        <h3 class="t">Karnak Temple</h3>
-        <div class="d">
-          <h3>Karnak Temple</h3>
-          <p>The world's largest ancient religious complex, in Luxor; built over centuries to worship the god Amun, and famous for the Great Hypostyle Hall with its 134 giant columns and the Avenue of Rams.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
+      <article class="spot">
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Al-Deir_Al-Bahari_Temple_73.jpg?width=1200" alt="Temple of Hatshepsut"         loading="lazy"></figure>
+        <div class="spot-text">
+          <span class="num">02</span> Before & After . Page 1
+          <h3>Temple of Hatshepsut</h3>
+          <p class="place">Deir el-Bahari, Luxor</p>
+          <ol>
+            <li>Built in the 15th century BC for Hatshepsut, a woman who ruled as pharaoh.</li>
+            <li>Its three terraces rise in front of towering           limestone cliffs.</li>
+            <li>Its wall reliefs record a trading expedition to the Land of Punt.</li>
+          </ol>
         </div>
       </article>
-
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmnhmokXofolSO3nTOOVEDYgebSdAvBgCfERpRPV8IeQ&s=10" alt="Valley of the Kings and Queens">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCxn8wN82qGBVI0oZFqiTcBAk_oc_WFuUEnvLVb4Kw3Q&s=10" alt="Valley of the Kings and Queens">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrV65kTsnUatF-5eAnJNwUiqKAHz6eSH8odtF_3R8YBg&s=10" alt="Valley of the Kings and Queens">
-        </div>
-        <h3 class="t">Valley of the Kings and Queens</h3>
-        <div class="d">
-          <h3>Valley of the Kings and Queens</h3>
-          <p>The final resting place of New Kingdom pharaohs and queens on Luxor's West Bank; its rock-cut tombs are decorated with vivid carvings, most notably the tombs of Tutankhamun and Queen Nefertari.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
-        </div>
-      </article>
-
-
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwQveez6cWqMfTmsd0o609bEVwwz6Tft6GfG3gkuTOA&s=10" alt="Temple of Hatshepsut (Deir el-Bahari)">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-0WuMgk_bOPrO_68TXEq0U7GgzEempy7wRTnRHV_Sgw&s=10" alt="Temple of Hatshepsut (Deir el-Bahari)">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf2Jw94tY-7yZdw2-LufQVQXiLnbEeo79UAh2vhCn6hg&s=10" alt="Temple of Hatshepsut (Deir el-Bahari)">
-        </div>
-        <h3 class="t">Temple of Hatshepsut (Deir el-Bahari)</h3>
-        <div class="d">
-          <h3>Temple of Hatshepsut (Deir el-Bahari)</h3>
-          <p>A unique architectural masterpiece at Deir el-Bahari in Luxor; it has three tiered terraces carved into the heart of the rocky mountain, and its walls record Hatshepsut's famous expedition to the Land of Punt.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
+      <article class="spot">
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dendera_Temple_of_Hathor.jpg?width=1200" alt="Dendera Temple"         loading="lazy"></figure>
+        <div class="spot-text">
+          <span class="num">03</span>
+          <h3>Dendera Temple</h3>
+          <p class="place">Qena</p>
+          <ol>
+            <li>It is dedicated to Hathor, goddess of love, music and joy.</li>
+            <li>The main temple standing today dates largely to the late           Ptolemaic period.</li>
+            <li>The famous Dendera Zodiac came from its roof and is now in the Louvre.</li>
+          </ol>
         </div>
       </article>
-    </div>
-  </section>
-
-  <section class="sec" id="aswan">
-    <h2>Aswan</h2>
-    <div class="g">
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMD4X1HnnUXarexYIarJWhBqq2LQMayNplVU2mapITA&s=10" alt="Abu Simbel Temples">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDEsPlM8GMuCpVMWBR1CzPXGDNngDQb4Co4oqHzPHddA&s=10" alt="Abu Simbel Temples">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjVYL7qkSR7TaP1I5O339Uf1NZ5LuaPIreyVBFPuK5htwB6c0uEepYaKY&s=10" alt="Abu Simbel Temples">
-        </div>
-        <h3 class="t">Abu Simbel Temples</h3>
-        <div class="d">
-          <h3>Abu Simbel Temples</h3>
-          <p>A rock-cut architectural wonder in southern Aswan; it contains the temples of Ramesses II and Queen Nefertari, and is famed for the sun aligning with the inner sanctuary twice a year.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
-        </div>
-      </article>
-
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP50IfbsltkHNGO1aAaTMniNnmeNgRhozE2TLqkx9jmQ&s=10" alt="Philae Temple">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2tWWoyfo3jvN_Jx4SLbfUqQ8qaCReA7hij34a0q5ofw&s=10" alt="Philae Temple">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3s1XcJbMTABAlaDNcQRR7WDxRoUwOU6cLwT7-jI63sw&s=10" alt="Philae Temple">
-        </div>
-        <h3 class="t">Philae Temple</h3>
-        <div class="d">
-          <h3>Philae Temple</h3>
-          <p>The pearl of the Nubian temples amid the Nile waters in Aswan; built to worship the goddess Isis, it features Ptolemaic and Roman reliefs and was moved entirely to Agilkia Island to save it from flooding.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
+    </section>
+    <section class="chapter" id="heritage">
+      <header class="chapter-head">
+        <h2>Faith & Knowledge</h2>
+        <p>Places of prayer and learning</p>
+      </header>
+      <article class="spot">
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/A_full_view_of_Saint_Catherine%27s_Monastery.jpg?width=1200" alt="Saint         Catherine’s Monastery" loading="lazy"></figure>
+        <div class="spot-text">
+          <span class="num">04</span>
+          <h3>Saint Catherine’s Monastery</h3>
+          <p class="place">South Sinai</p>
+          <ol>
+            <li>It stands at the foot of Mount Sinai.</li>
+            <li>It was built in the 6th century by order of Emperor Justinian.</li>
+            <li>It became part           of a UNESCO World Heritage Site in 2002.</li>
+          </ol>
         </div>
       </article>
-    </div>
-  </section>
-
-  <section class="sec" id="cairo">
-    <h2>Cairo</h2>
-    <div class="g">
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5mM-0ccnexoMtDsyCXPje4mXj2jPyUfuxgU9P1dVymQ&s=10" alt="Saladin Citadel">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-DQrD7TZDCHtQVmzwnqfxqZInAgpSOeKcd6398ye_5g&s=10" alt="Saladin Citadel">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmkxLG2aGb0QXOau1tHKf4fy7kBN63NAi-r_DewWk6vw&s=10" alt="Saladin Citadel">
-        </div>
-        <h3 class="t">Saladin Citadel</h3>
-        <div class="d">
-          <h3>Saladin Citadel</h3>
-          <p>One of the greatest medieval military fortresses, atop Mokattam Hill; built to protect Cairo, it contains notable landmarks, most famously the Mosque of Muhammad Ali, and offers panoramic views of the city.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
-        </div>
-      </article>
-
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgI4W7t138wH6xc4TVZVD9J5727117w9z7mUhG3NPgHQ&s=10" alt="Old Cairo and Coptic Cairo">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqKmxiXbqxO6Y-6az0s99a63jQbHyOMpCIjQCu6g80Hw&s=10" alt="Old Cairo and Coptic Cairo">
-          <img loading="lazy" src="https://www.arabcont.com/Images/ProjectImage/Church01.jpg" alt="Old Cairo and Coptic Cairo">
-        </div>
-        <h3 class="t">Old Cairo and Coptic Cairo</h3>
-        <div class="d">
-          <h3>Old Cairo and Coptic Cairo</h3>
-          <p>Home to one of the oldest and most famous historic churches in Old Cairo; it is called the Hanging Church because it was built over two towers of the Roman Babylon Fortress, and it is notable for its rare Coptic icons and unique style.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
-        </div>
-      </article>
-
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpDJjn7xFgkcr1dGdgvM7p8ZQEwzOitZQohAkMFTvAQ&s=10" alt="Al-Azhar Mosque">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqbgTEk6uDWlmsVv4XbZ-ShmKNy40ZCbBHRhiS2285A&s=10" alt="Al-Azhar Mosque">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lHyDYxRc9Q7ViesdC-32Ep441PL2RRr-hhZrq9EjJQ&s=10" alt="Al-Azhar Mosque">
-        </div>
-        <h3 class="t">Al-Azhar Mosque</h3>
-        <div class="d">
+      <article class="spot">
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_Courtyard_of_Al-Azhar_Mosque,_Cairo,_Egypt.jpg?width=1200"         alt="Al-Azhar Mosque" loading="lazy"></figure>
+        <div class="spot-text">
+          <span class="num">05</span>
           <h3>Al-Azhar Mosque</h3>
-          <p>A beacon of knowledge in the Islamic world and one of Cairo's oldest historic mosques; built in the Fatimid era, its architecture blends Fatimid, Mamluk and Ottoman styles.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
+          <p class="place">Historic Cairo</p>
+          <ol>
+            <li>The Fatimids began building it in 970 AD.</li>
+            <li>It was the first mosque built in the new city of Cairo.</li>
+            <li>Al-Azhar           University, which grew from it, is one of the oldest in the world.</li>
+          </ol>
         </div>
       </article>
-    </div>
-  </section>
-
-  <section class="sec" id="more">
-    <h2>Alexandria and Other Governorates</h2>
-    <div class="g">
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWIEvT9ue-N8F8YA1a4m_ahP4XDP7T52K5lWAJrX4xdA&s=10" alt="The Roman Theatre in Alexandria">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6rBJOP0Oq7u_aQeIXzRmCgTLXc63qLdH_ctF9T2fkiw&s=10" alt="The Roman Theatre in Alexandria">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCazHUU-Mg1c_XujwV_jnArO0RBDTBL9Z7Y1kgsWvlg&s=10" alt="The Roman Theatre in Alexandria">
-        </div>
-        <h3 class="t">The Roman Theatre in Alexandria</h3>
-        <div class="d">
-          <h3>The Roman Theatre in Alexandria</h3>
-          <p>One of the most prominent Roman landmarks, at Kom el-Dikka in Alexandria; it features tiered marble seating and, around it, the remains of Roman baths and ancient mosaics.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
+      <article class="spot">
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Egypt,_Alexandria,_Bibliotheca_Alexandrina.jpg?width=1200"         alt="Bibliotheca Alexandrina" loading="lazy"></figure>
+        <div class="spot-text">
+          <span class="num">06</span>
+          <h3>Bibliotheca Alexandrina</h3>
+          <p class="place">Alexandria</p>
+          <ol>
+            <li>It opened in 2002 in memory of the ancient Library of Alexandria.</li>
+            <li>The Norwegian firm Snøhetta led its architectural           design.</li>
+            <li>It has shelf space for up to eight million books.</li>
+          </ol>
         </div>
       </article>
-
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdbrEGjmcdQSNc3f6oSBnQSFjSOFj_kSbdZNN5FCP39w&s=10" alt="Saint Catherine's Monastery">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqGpNohvvohEPRvn9EHXXbcAtLeMSW4jKpviMbnsdjog&s=10" alt="Saint Catherine's Monastery">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnlElVASkQWhK9uPHqDxGhM9P4wDPSlviB5l6ycM6udg&s=10" alt="Saint Catherine's Monastery">
-        </div>
-        <h3 class="t">Saint Catherine's Monastery in South Sinai</h3>
-        <div class="d">
-          <h3>Saint Catherine's Monastery in South Sinai</h3>
-          <p>One of the oldest working monasteries in the world, in South Sinai at the foot of Mount Moses; it is famous for its rare manuscripts, ancient icons and unique mountain setting.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
-        </div>
-      </article>
-
-      <article class="c">
-        <div class="s">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEMVE3hw6Bba2rw9xt7OnMlvSzvQCKr40SSkHpwXKVCg&s=10" alt="Temple of Amun in Siwa">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1_E6c6LKkHaP0xIMoh2e4ECQVLN2FFLLliysKkG3KsQ&s=10" alt="Temple of Amun in Siwa">
-          <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Nbd6x9zXiKLAMTmNkk_Q7zBlpuIyC0lgtwwzNUf9dQ&s=10" alt="Temple of Amun in Siwa">
-        </div>
-        <h3 class="t">Temple of Amun in Siwa</h3>
-        <div class="d">
-          <h3>Temple of Amun in Siwa</h3>
-          <p>One of the best-known archaeological sites in the Siwa Oasis; linked to the worship of the god Amun and anciently famed for its oracle in the heart of the Western Desert.</p>
-          <a class="v" href="#">View More</a><b>👁</b>
+    </section>
+    <section class="chapter" id="nature">
+      <header class="chapter-head">
+        <h2>South & West</h2>
+        <p>Riverside temples and desert horizons</p>
+      </header>
+      <article class="spot">
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Temple_of_Edfu,_Pylon,_Egypt.jpg?width=1200" alt="Edfu Temple"         loading="lazy"></figure>
+        <div class="spot-text">
+          <span class="num">07</span>
+          <h3>Edfu Temple</h3>
+          <p class="place">Edfu, Aswan</p> Page 2
+          <ol>
+            <li>It is dedicated to Horus, the falcon-headed god.</li>
+            <li>It was built between 237 and 57 BC.</li>
+            <li>It is one of the best           preserved temples in Egypt.</li>
+          </ol>
         </div>
       </article>
-    </div>
-  </section>
-
+      <article class="spot">
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Siwa_Oasis,_Houses_in_the_desert,_Egypt.jpg?width=1200" alt="Siwa         Oasis" loading="lazy"></figure>
+        <div class="spot-text">
+          <span class="num">08</span>
+          <h3>Siwa Oasis</h3>
+          <p class="place">Matrouh</p>
+          <ol>
+            <li>It lies in the Western Desert near the Libyan border.</li>
+            <li>Alexander the Great visited its Oracle of Amun in 331 BC.</li>
+            <li>It           is known for its salt lakes, dates and olives.</li>
+          </ol>
+        </div>
+      </article>
+      <article class="spot">
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/White_Desert,_Rock_formation,_Egypt.jpg?width=1200" alt="White Desert"         loading="lazy"></figure>
+        <div class="spot-text">
+          <span class="num">09</span>
+          <h3>White Desert</h3>
+          <p class="place">Near Farafra</p>
+          <ol>
+            <li>Its landscape is famous for bright white chalk rock.</li>
+            <li>Wind and sand carved the rocks into mushroom-like shapes.</li>
+            <li>It           was declared a protected area in 2002.</li>
+          </ol>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <h4>Photos from Wikimedia Commons (open a name for author and license)</h4>
+    <ul>
+      <li><a href="https://commons.wikimedia.org/wiki/File:Saqqara,_Pyramid_of_Djoser,_Ancient_Egypt.jpg" target="_blank" rel="noopener">Pyramid       of Djoser</a></li>
+      <li><a href="https://commons.wikimedia.org/wiki/File:Al-Deir_Al-Bahari_Temple_73.jpg" target="_blank"       rel="noopener">Temple of Hatshepsut</a></li>
+      <li><a href="https://commons.wikimedia.org/wiki/File:Dendera_Temple_of_Hathor.jpg"       target="_blank" rel="noopener">Dendera Temple</a></li>
+      <li><a       href="https://commons.wikimedia.org/wiki/File:A_full_view_of_Saint_Catherine%27s_Monastery.jpg" target="_blank" rel="noopener">Saint       Catherine’s Monastery</a></li>
+      <li><a href="https://commons.wikimedia.org/wiki/File:The_Courtyard_of_Al-Azhar_Mosque,_Cairo,_Egypt.jpg"       target="_blank" rel="noopener">Al-Azhar Mosque</a></li>
+      <li><a       href="https://commons.wikimedia.org/wiki/File:Egypt,_Alexandria,_Bibliotheca_Alexandrina.jpg" target="_blank" rel="noopener">Bibliotheca       Alexandrina</a></li>
+      <li><a href="https://commons.wikimedia.org/wiki/File:Temple_of_Edfu,_Pylon,_Egypt.jpg" target="_blank"       rel="noopener">Edfu Temple</a></li>
+      <li><a href="https://commons.wikimedia.org/wiki/File:Siwa_Oasis,_Houses_in_the_desert,_Egypt.jpg"       target="_blank" rel="noopener">Siwa Oasis</a></li>
+      <li><a       href="https://commons.wikimedia.org/wiki/File:White_Desert,_Rock_formation,_Egypt.jpg" target="_blank" rel="noopener">White       Desert</a></li>
+    </ul>
+    <p>Beyond the Nile · Multimedia Project 2026</p>
+  </footer>
 </body>
 </html>
